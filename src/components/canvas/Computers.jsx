@@ -1,8 +1,8 @@
 import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import { OrbitControls, Preload, useGLTF, } from "@react-three/drei";
 
-// import CanvasLoader from "../Loader";
+import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
@@ -22,7 +22,7 @@ const Computers = ({ isMobile }) => {
       <primitive
         object={computer.scene}
         scale={isMobile ? 3 : 5.2}
-        position={ [-1, -1.4, 0]}
+        position={[-1, -1.4, 0]}
         rotation={[0, 1.5, 0]}
       />
     </mesh>
@@ -62,7 +62,7 @@ const ComputersCanvas = () => {
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense
-      // fallback={<CanvasLoader />}
+        fallback={<CanvasLoader />}
       >
         <OrbitControls
           enableZoom={false}

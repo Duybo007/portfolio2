@@ -23,6 +23,12 @@ import {
     jobit,
     tripguide,
     threejs,
+    angular,
+    nextjs,
+    rezrva,
+    springboard,
+    reactIcon,
+    fullstack
   } from "../assets";
   
   export const navLinks = [
@@ -47,15 +53,15 @@ import {
     },
     {
       title: "React Developer",
-      icon: mobile,
+      icon: reactIcon,
     },
     {
       title: "Full-stack Developer",
-      icon: backend,
+      icon: fullstack,
     },
     {
       title: "Angular Developer",
-      icon: creator,
+      icon: angular,
     },
   ];
   
@@ -109,18 +115,22 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Angular",
+      icon: angular,
+    },
+    {
+      name: "NextJs",
+      icon: nextjs,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Student",
+      company_name: "Springboard",
+      icon: springboard,
+      iconBg: "#DCFBDB",
+      date: "June 2022 - August 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,11 +139,11 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Front-end Developer",
+      company_name: "Rezrva",
+      icon: rezrva,
+      iconBg: "#fff",
+      date: "March 2023 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

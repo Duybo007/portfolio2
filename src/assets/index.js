@@ -3,6 +3,8 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
+import reactIcon from "./reactIcon.png";
+import fullstack from "./fullstack.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -20,11 +22,15 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import angular from "./tech/angular.png";
+import nextjs from "./tech/nextjs.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import rezrva from "./company/rezrva.jpg";
+import springboard from "./company/springboard.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -59,4 +65,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  angular,
+  nextjs,
+  rezrva,
+  springboard,
+  reactIcon,
+  fullstack
 };
