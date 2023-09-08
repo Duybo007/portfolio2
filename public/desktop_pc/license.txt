@@ -1,0 +1,11 @@
+Model Information:
+* title:	Autumn Camping
+* source:	https://sketchfab.com/3d-models/autumn-camping-e41d700dcc0342cb92b8e0af59c1dabc
+* author:	marzipanne (https://sketchfab.com/marzipanne)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Autumn Camping" (https://sketchfab.com/3d-models/autumn-camping-e41d700dcc0342cb92b8e0af59c1dabc) by marzipanne (https://sketchfab.com/marzipanne) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
