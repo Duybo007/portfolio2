@@ -14,7 +14,9 @@ const FeedbackCard = ({
   company,
   image,
 }) => (
-  <motion.div variants={fadeIn("", "spring", index * 0.5, 0.75)} className="bg-black-200 p-10 rounded-3xl  w-full">
+  <motion.div variants={fadeIn("", "spring", index * 0.5, 0.75)}
+    onClick={() => window.open("https://www.linkedin.com/in/duy-ngo-front-end/", "_blank")}
+    className="bg-black-200 p-10 rounded-3xl  w-full cursor-pointer">
     <p className="text-white font-black text-[48px]">"</p>
 
     <div className='mt-1'>

@@ -37,6 +37,11 @@ import springboard from "./company/springboard.jpg";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import ai from "./ai.png";
+import habana from "./habana.png";
+import netflix from "./netflix.png";
+import recipe from "./recipe.png";
+import duy from "./duy.png";
 
 export {
   logo,
@@ -74,5 +79,10 @@ export {
   reactIcon,
   fullstack,
   link,
-  mike
+  mike,
+  ai,
+  habana,
+  recipe,
+  netflix,
+  duy
 };

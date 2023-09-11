@@ -2,6 +2,7 @@ import { BrowserRouter } from "react-router-dom"
 import { Navbar, Hero, About, Experience, Tech, Works, Feedbacks, Contact, StarsCanvas } from './components'
 
 function App() {
+  const userAgent = window.navigator.userAgent.toLowerCase();
 
   return (
     <BrowserRouter>
@@ -17,7 +18,9 @@ function App() {
         <Feedbacks />
         <div className="relative z-0">
           <Contact />
-          <StarsCanvas />
+          {userAgent.includes('firefox') && (
+            <StarsCanvas />
+          )}
         </div>
       </div>
     </BrowserRouter>

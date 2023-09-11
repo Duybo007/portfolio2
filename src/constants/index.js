@@ -30,7 +30,12 @@ import {
     reactIcon,
     fullstack,
     link,
-    mike
+    mike,
+    ai,
+    habana,
+    recipe,
+    netflix,
+    duy
   } from "../assets";
   
   export const navLinks = [
@@ -139,10 +144,8 @@ import {
       iconBg: "#DCFBDB",
       date: "June 2022 - August 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "An 800-hour course covers key aspects of front-end web development, back-end web development, databases, and data structures and algorithms. Modules include learning resources, practice exercises, projects, and career-related coursework.",
+        "Web Development, JavaScript, DOM Manipulation, Event Driven Programming, Git/Terminal/Github, Modern JavaScript and Testing, AJAX, jQuery, ReactJS, Redux, SQL, PostgresQL, Flask, Node, Express, Data Structures and Algorithms."
       ],
     },
     {
@@ -152,38 +155,14 @@ import {
       iconBg: "#fff",
       date: "March 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Develop new components and enhance existing features of the B2B SaaS application.",
+        "Initiate the development of Rezrva’s public facing marketplace that retrieved data from the SaaS application.",
+        "Optimized the onboarding component resulting in a 700% increase in conversions and trial signups.",
+        "Collaborated with team members on planning and designing new features.",
+        "Actively participated in code reviews and contributed to improving code quality and development processes.",
+        "Implemented best practices for front-end development while maintaining a focus on optimization and performance using Angular and TypeScript."
       ],
     },
-    // {
-    //   title: "Web Developer",
-    //   company_name: "Shopify",
-    //   icon: shopify,
-    //   iconBg: "#383E56",
-    //   date: "Jan 2022 - Jan 2023",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
-    // {
-    //   title: "Full stack Developer",
-    //   company_name: "Meta",
-    //   icon: meta,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
   ];
   
   const testimonials = [
@@ -195,80 +174,42 @@ import {
       company: "LA Fitness",
       image: mike,
     },
-    // {
-    //   testimonial:
-    //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    //   name: "Chris Brown",
-    //   designation: "COO",
-    //   company: "DEF Corp",
-    //   image: "https://randomuser.me/api/portraits/men/5.jpg",
-    // },
-    // {
-    //   testimonial:
-    //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    //   name: "Lisa Wang",
-    //   designation: "CTO",
-    //   company: "456 Enterprises",
-    //   image: "https://randomuser.me/api/portraits/women/6.jpg",
-    // },
   ];
   
   const projects = [
     {
       name: "Netflix Clone",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A Netflix clone website is a streaming platform that offers a similar user experience and content selection as Netflix. Users can sign up for an account, browse and find movies and TV shows, and create personal watchlists.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
-          color: "pink-text-gradient",
+          name: "TMDB API",
+          color: "green-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: netflix,
+      source_code_link: "https://github.com/Duybo007/netflix-clone",
       demo_link:"https://netflix-clone-chi-rouge.vercel.app/"
     },
     {
       name: "Restaurant Landing Page",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A refreshed version of the website for a restaurant that includes the ability for users to easily make reservations online. This can help streamline the reservation process and improve the customer experience, making it more convenient for diners to plan their meals at the restaurant.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-      demo_link:"https://habana-phi.vercel.app/"
-    },
-    {
-      name: "Recipe Manager & Planner",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
@@ -276,21 +217,47 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: habana,
+      source_code_link: "https://github.com/Duybo007/habana",
+      demo_link:"https://habana-phi.vercel.app/"
+    },
+    {
+      name: "Recipe Manager & Planner",
+      description:
+        "A recipe web design allows users to create an account, search for recipes by name or ingredients, and save their favorite recipes. Users can log in to their account to access their saved recipes and browse for new ones to try.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Spoonacular API",
+          color: "green-text-gradient",
+        },
+      ],
+      image: recipe,
+      source_code_link: "https://github.com/Duybo007/new_recipes_book",
       demo_link:"https://new-recipes-book.vercel.app/"
     },
     {
       name: "AI Chatbot",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Explore a world of endless conversations with our diverse array of AI bots. Whether you're seeking practical assistance, engaging in friendly banter, or delving into the imaginative realm of fictional characters, our platform has it all. Connect with real people, unleash your creativity, or simply find the perfect chat partner for any occasion.",
       tags: [
         {
-          name: "react",
+          name: "nextjs 13",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "OpenAI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Prisma",
           color: "green-text-gradient",
         },
         {
@@ -298,9 +265,31 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: ai,
+      source_code_link: "https://github.com/Duybo007/ai-companion",
       demo_link:"https://ai-companion-eta.vercel.app/"
+    },
+    {
+      name: "Portfolio Ver 1",
+      description:
+        "My old portfolio website represents a significant milestone in my web development journey. Designed and developed as a testament to my skills and creativity at the time, this project showcases the evolution of my abilities and design sensibilities.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "SASS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: duy,
+      source_code_link: "https://github.com/Duybo007/portfolio",
+      demo_link:"https://portfolio-eta-six-71.vercel.app/"
     },
   ];
   
