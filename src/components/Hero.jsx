@@ -15,7 +15,10 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText}`}>Hi, I'm <span className='text-[#82D0FA]'>Duy</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white`}>I craft engaging and responsive web experiences <br className='md:block hidden' />that seamlessly blend creativity with functionality</p>
+          <p className={`${styles.heroSubText} mt-2 text-white`}>
+            {/* I craft engaging and responsive web experiences <br className='md:block hidden' />that seamlessly blend creativity with functionality */}
+            Resolving design problems, building smart user interfaces and useful interactions, developing rich web application and seamless web experiences.
+          </p>
         </div>
       </div>
       <ComputersCanvas />
