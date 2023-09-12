@@ -13,14 +13,15 @@ function App() {
         </div>
         <About />
         <Experience />
-        <Tech />
+        {/* <Tech /> */}
         <Works />
         <Feedbacks />
         <div className="relative z-0">
           <Contact />
-          {userAgent.includes('firefox') && (
+          <StarsCanvas />
+          {/* {userAgent.includes('firefox') && (
             <StarsCanvas />
-          )}
+          )} */}
         </div>
       </div>
     </BrowserRouter>
