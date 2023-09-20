@@ -6,7 +6,7 @@ import { styles } from "../styles";
 import { github, link } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+import { fadeIn, staggerContainer, textVariant } from "../utils/motion";
 
 const ProjectCard = ({
   index,
@@ -79,7 +79,13 @@ const ProjectCard = ({
 
 const Works = () => {
   return (
-    <>
+    <motion.div
+      variants={staggerContainer()}
+      initial='hidden'
+      whileInView='show'
+      id="projects"
+      viewport={{ once: true, amount: 0.25 }}
+      className={`${styles.padding} max-w-7xl mx-auto relative z-0`}>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>// Some Things I’ve Built</p>
         <h2 className={styles.sectionHeadText}>Projects.</h2>
@@ -104,8 +110,9 @@ const Works = () => {
           />
         ))}
       </div>
-    </>
+    </motion.div>
   )
 }
 
-export default SectionWrapper(Works, "projects")
+// export default SectionWrapper(Works, "projects")
+export default Works

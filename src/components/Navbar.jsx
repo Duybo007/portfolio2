@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { menu, close } from '../assets'
 import { navLinks } from "../constants";
 
-const Navbar = () => {
+const Navbar = () => { 
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(true);
 
