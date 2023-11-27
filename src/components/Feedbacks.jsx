@@ -47,7 +47,7 @@ const Feedbacks = () => {
     <div className='mt-12 rounded-[20px] bg-black-100'>
       <div className={`${styles.padding} bg-teriary rounded-2xl min-h-[300px]`}>
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>What otthers say</p>
+          <p className={styles.sectionSubText}>What others say</p>
           <h2 className={styles.sectionHeadText}>Recommendations</h2>
         </motion.div>
       </div>
