@@ -32,6 +32,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import rezrva from "./company/rezrva.jpg";
+import taperk from "./company/taperk.jpg";
 import springboard from "./company/springboard.jpg";
 
 import carrent from "./carrent.png";
@@ -84,5 +85,6 @@ export {
   habana,
   recipe,
   netflix,
-  duy
+  duy,
+  taperk
 };

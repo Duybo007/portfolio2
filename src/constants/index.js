@@ -35,7 +35,8 @@ import {
     habana,
     recipe,
     netflix,
-    duy
+    duy,
+    taperk
   } from "../assets";
   
   export const navLinks = [
@@ -138,6 +139,35 @@ import {
   
   const experiences = [
     {
+      title: "Front-end Developer",
+      company_name: "Taperk",
+      icon: taperk,
+      iconBg: "#fff",
+      date: "September 2023 - Present",
+      points: [
+        "Directed the development of a new Reward Management application using Next.js, Tailwind CSS, and TypeScript, resulting in the successful completion of an MVP for investor presentation and subsequent funding acquisition.",
+        "Collaborated with backend developers to integrate password changing APIs and ensure data is fetched and displayed efficiently on the front end.",
+        "Led the design and development of the user interface for the reward redeem page, ensuring an intuitive and engaging user experience.",
+        "Successfully implemented a user data collection form, leading to a 30% improvement in data accuracy, and seamlessly integrated it with backend APIs, reducing data processing time by 40% for reward redemption."
+      ],
+    },
+    {
+      title: "Front-end Developer",
+      company_name: "Rezrva",
+      icon: rezrva,
+      iconBg: "#fff",
+      date: "March 2023 - September 2023",
+      points: [
+        "Led the frontend development of a new booking service web application tailored for the Latin American market, employing Angular, Bootstrap, and TypeScript, resulting in a remarkable 50% boost in user satisfaction.",
+        "Develop new components and enhance existing features of the B2B SaaS application using Angular, Bootstrap, and TypeScript.",
+        "Collaborated with senior developers to develop a new onboarding component resulting in a 50% increase in conversions and trial signups.",
+        
+        "Enhanced the user interface by developing a new calendar view component using the FullCalendar library, resulting in a 25% increase in user engagement and improved usability.",
+        "Implemented best practices for front-end development while maintaining a focus on optimization and performance using Angular and TypeScript.",
+        "Applied advanced form validation techniques and robust error handling as a front-end developer, enabling precise data submission and fortifying the system's reliability."
+      ],
+    },
+    {
       title: "Student",
       company_name: "Springboard",
       icon: springboard,
@@ -146,21 +176,6 @@ import {
       points: [
         "An 800-hour course covers key aspects of front-end web development, back-end web development, databases, and data structures and algorithms. Modules include learning resources, practice exercises, projects, and career-related coursework.",
         "Web Development, JavaScript, DOM Manipulation, Event Driven Programming, Git/Terminal/Github, Modern JavaScript and Testing, AJAX, jQuery, ReactJS, Redux, SQL, PostgresQL, Flask, Node, Express, Data Structures and Algorithms."
-      ],
-    },
-    {
-      title: "Front-end Developer",
-      company_name: "Rezrva",
-      icon: rezrva,
-      iconBg: "#fff",
-      date: "March 2023 - Present",
-      points: [
-        "Develop new components and enhance existing features of the B2B SaaS application.",
-        "Initiate the development of Rezrva’s public facing marketplace that retrieved data from the SaaS application.",
-        "Optimized the onboarding component resulting in a 700% increase in conversions and trial signups.",
-        "Collaborated with team members on planning and designing new features.",
-        "Actively participated in code reviews and contributed to improving code quality and development processes.",
-        "Implemented best practices for front-end development while maintaining a focus on optimization and performance using Angular and TypeScript."
       ],
     },
   ];
