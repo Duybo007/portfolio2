@@ -36,7 +36,8 @@ import {
     recipe,
     netflix,
     duy,
-    taperk
+    taperk,
+    insta
   } from "../assets";
   
   export const navLinks = [
@@ -192,6 +193,28 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Instagram Clone",
+      description:
+        "An Instagram clone featuring infinite scroll for seamless browsing. Enjoy posting, liking, and saving moments in a user-friendly interface that captures the essence of social connection.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "appwrite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "React Query",
+          color: "green-text-gradient",
+        },
+      ],
+      image: insta,
+      source_code_link: "https://github.com/Duybo007/insta-clone",
+      demo_link:"https://insta-clone-blond-two.vercel.app"
+    },
     {
       name: "Netflix Clone",
       description:

@@ -41,6 +41,7 @@ import tripguide from "./tripguide.png";
 import ai from "./ai.png";
 import habana from "./habana.png";
 import netflix from "./netflix.png";
+import insta from "./insta.png";
 import recipe from "./recipe.png";
 import duy from "./duy.png";
 
@@ -86,5 +87,6 @@ export {
   recipe,
   netflix,
   duy,
-  taperk
+  taperk,
+  insta
 };

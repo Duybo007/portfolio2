@@ -38,7 +38,7 @@ const ProjectCard = ({
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient  w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
+              className="bg-gradient-to-r from-violet-500 to-fuchsia-500 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
               <img
                 src={github}
                 alt="github"
@@ -47,7 +47,7 @@ const ProjectCard = ({
             </div>
             <div
               onClick={() => window.open(demo_link, "_blank")}
-              className="black-gradient  w-10 h-10 rounded-full flex justify-center items-center cursor-pointer ml-2">
+              className="bg-gradient-to-r from-violet-500 to-fuchsia-500 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer ml-2">
               <img
                 src={link}
                 alt="external link"
