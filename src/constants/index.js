@@ -261,7 +261,7 @@ const projects = [
   {
     name: "Recipe Manager & Planner",
     description:
-      "A recipe web design allows users to create an account, search for recipes by name or ingredients, and save their favorite recipes. Users can log in to their account to access their saved recipes and browse for new ones to try.",
+      "A dynamic Recipe PWA, built with Next.js, Tailwind CSS, and Firebase. Featuring infinite scroll, personalized recipe saving, and pantry management, all complemented by sleek animations with Framer Motion.",
     tags: [
       {
         name: "nextjs",
@@ -275,10 +275,14 @@ const projects = [
         name: "Spoonacular API",
         color: "green-text-gradient",
       },
+      {
+        name: "Framer Motion",
+        color: "pink-text-gradient",
+      },
     ],
     image: recipe,
-    source_code_link: "https://github.com/Duybo007/new_recipes_book",
-    demo_link: "https://new-recipes-book.vercel.app/",
+    source_code_link: "https://github.com/Duybo007/recipe-tiktok",
+    demo_link: "https://recipe-tiktok-9je5zlele-duybo007.vercel.app/",
   },
   // {
   //   name: "AI Chatbot",
