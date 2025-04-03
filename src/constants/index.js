@@ -38,6 +38,9 @@ import {
   duy,
   taperk,
   insta,
+  toy,
+  skinet,
+  chat,
 } from "../assets";
 
 export const navLinks = [
@@ -143,12 +146,12 @@ const experiences = [
     company_name: "Taperk",
     icon: taperk,
     iconBg: "#fff",
-    date: "September 2023 - Present",
+    date: "September 2023 - June 2024",
     points: [
-      "Directed the development of a new Reward Management application using Next.js, Tailwind CSS, and TypeScript, resulting in the successful completion of an MVP for investor presentation and subsequent funding acquisition.",
-      "Collaborated with backend developers to integrate password changing APIs and ensure data is fetched and displayed efficiently on the front end.",
-      "Led the design and development of the user interface for the reward redeem page, ensuring an intuitive and engaging user experience.",
-      "Successfully implemented a user data collection form, leading to a 30% improvement in data accuracy, and seamlessly integrated it with backend APIs, reducing data processing time by 40% for reward redemption.",
+      "Developed and deployed a Reward Management MVP using Next.js, Tailwind CSS, and TypeScript, contributing to a 20% increase in funding acquisition by improving user engagement and system efficiency.",
+      "Collaborated with developers to identify, troubleshoot, and resolve software bugs, enhancing application stability and performance",
+      "Designed and implemented a Content Management System (CMS) to streamline client interactions, improving content management efficiency and user experience.",
+      "Developed dynamic and user-friendly web forms with real-time validation and error handling, reducing submission errors and improving customer satisfaction. ",
     ],
   },
   {
@@ -158,13 +161,10 @@ const experiences = [
     iconBg: "#fff",
     date: "March 2023 - September 2023",
     points: [
-      "Led the frontend development of a new booking service web application tailored for the Latin American market, employing Angular, Bootstrap, and TypeScript, resulting in a remarkable 50% boost in user satisfaction.",
-      "Develop new components and enhance existing features of the B2B SaaS application using Angular, Bootstrap, and TypeScript.",
-      "Collaborated with senior developers to develop a new onboarding component resulting in a 50% increase in conversions and trial signups.",
-
-      "Enhanced the user interface by developing a new calendar view component using the FullCalendar library, resulting in a 25% increase in user engagement and improved usability.",
-      "Implemented best practices for front-end development while maintaining a focus on optimization and performance using Angular and TypeScript.",
-      "Applied advanced form validation techniques and robust error handling as a front-end developer, enabling precise data submission and fortifying the system's reliability.",
+      "Led front-end development using Angular and TypeScript, improving the booking platform's UI and contributing to a 50% increase in user satisfaction through enhanced usability and performance.",
+      "Collaborated with senior developers to design and implement an onboarding component, boosting trial signups and conversions by 50% through a more intuitive user experience.",
+      "Worked with software engineers to develop and optimize application procedures, improving system efficiency and performance.",
+      "Diagnosed and resolved application functionality issues, enhancing system reliability and user experience.",
     ],
   },
   {
@@ -193,16 +193,83 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Full-stack Dating Web Application",
+    description:
+      "Full-stack dating application built using .NET 8 with Web API for the backend and Angular 17 for the front end with Bootstrap for styling. Utilizes Entity Framework to connect to an SQL Server Database for storing user data and photos. Implements SignalR for real-time chat functionality between users. User features include: account registration using AspNetCore.Identity, profile editing, adding a main display photo, liking other users, and real-time chat.",
+    tags: [
+      {
+        name: ".NET",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Angular",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Azure",
+        color: "green-text-gradient",
+      },
+    ],
+    image: chat,
+    source_code_link: "https://github.com/Duybo007/DatingApp",
+    demo_link: "https://dating-app-project.azurewebsites.net/",
+  },
+  {
+    name: "Full-stack E-Commerce Platform",
+    description:
+      "Full-stack e-commerce application built using .NET with Web API for the backend and Angular for the frontend, styled with Tailwind CSS. Utilizes Entity Framework to connect to an SQL Server database for managing products, orders, and user data. Implements Stripe for secure payment processing. Features include user authentication with ASP.NET Core Identity, a shopping cart system, order management, and a seamless checkout experience. Deployed on Azure with a CI/CD pipeline for automated deployment and updates.",
+    tags: [
+      {
+        name: ".NET",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Angular",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Azure",
+        color: "green-text-gradient",
+      },
+    ],
+    image: skinet,
+    source_code_link: "https://github.com/Duybo007/skinet",
+    demo_link:
+      "https://skinet-03-2025-ggh4ezgydnbehhe4.westus-01.azurewebsites.net",
+  },
+  {
+    name: "Full-stack Ecommerce Toy Store",
+    description:
+      "A high-performance e-commerce website with Next.js for server-side rendering and a seamless user experience. Implemented Tailwind CSS for a responsive and aesthetically pleasing design. Integrated Sanity CMS for flexible content management. Securely processes payments using the Stripe API.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Stripe API",
+        color: "green-text-gradient",
+      },
+    ],
+    image: toy,
+    source_code_link: "https://github.com/Duybo007/toy",
+    demo_link: "https://toy-theta.vercel.app/",
+  },
+  {
     name: "Instagram Clone",
     description:
       "An Instagram clone featuring infinite scroll for seamless browsing. Enjoy posting, liking, and saving moments in a user-friendly interface that captures the essence of social connection.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "appwrite",
+        name: "Appwrite",
         color: "green-text-gradient",
       },
       {
@@ -214,39 +281,18 @@ const projects = [
     source_code_link: "https://github.com/Duybo007/insta-clone",
     demo_link: "https://insta-clone-blond-two.vercel.app",
   },
-  {
-    name: "Netflix Clone",
-    description:
-      "A Netflix clone website is a streaming platform that offers a similar user experience and content selection as Netflix. Users can sign up for an account, browse and find movies and TV shows, and create personal watchlists.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "firebase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "TMDB API",
-        color: "green-text-gradient",
-      },
-    ],
-    image: netflix,
-    source_code_link: "https://github.com/Duybo007/netflix-clone",
-    demo_link: "https://netflix-clone-chi-rouge.vercel.app/",
-  },
+
   {
     name: "Restaurant Landing Page",
     description:
       "A refreshed version of the website for a restaurant that includes the ability for users to easily make reservations online. This can help streamline the reservation process and improve the customer experience, making it more convenient for diners to plan their meals at the restaurant.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
+        name: "Firebase",
         color: "green-text-gradient",
       },
       {
@@ -264,7 +310,7 @@ const projects = [
       "A dynamic Recipe PWA, built with Next.js, Tailwind CSS, and Firebase. Featuring infinite scroll, personalized recipe saving, and pantry management, all complemented by sleek animations with Framer Motion.",
     tags: [
       {
-        name: "nextjs",
+        name: "Nextjs",
         color: "blue-text-gradient",
       },
       {
